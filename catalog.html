@@ -11,45 +11,47 @@
                     <li><a href="blank.html">Информация</a></li>
                     <li><a href="blank.html">Фото и видео</a></li>
                     <li><a href="blank.html">Карта штата</a></li>
-                    <li><a href="catalog.html">Гостиницы</a></li>
+                    <li><a href="#">Гостиницы</a></li>
                 </ul>
             </nav>
-            <a href="index.html">
-            <img src="img/header_logo.png" width="138" height="70" alt="Лого"/>
-            </a>
+            <a href="index.html"><img src="img/header_logo.png" width="138" height="70" alt="Sedona"></a>
         </header>
         <section>
-            <form action="#" method="POST"></form>
+            <form action="https://echo.htmlacademy.ru/" method="POST"></form>
             <div>
-                <h2>Инфраструктура:</h2>
-                <input type="checkbox" name="pool" value="Бассейн" id="checkbox01" checked>
-                <label for="checkbox01">Бассейн</label>
-                <input type="checkbox" name="parking" value="Парковка" id="checkbox02">
-                <label for="checkbox02">Парковка</label>
-                <input type="checkbox" name="wifi" value="Интернет" id="checkbox03">
-                <label for="checkbox03">Wi-Fi</label>
+              <fieldset>
+                <legend>Инфраструктура:</legend>
+                <input type="checkbox" name="pool" value="Бассейн" id="pool" checked>
+                <label for="pool">Бассейн</label>
+                <input type="checkbox" name="parking" value="Парковка" id="parking">
+                <label for="parking">Парковка</label>
+                <input type="checkbox" name="wifi" value="Интернет" id="wifi">
+                <label for="wifi">Wi-Fi</label>
+              </fieldset>
             </div>
                 <div>
-                    <h2>Тип жилья:</h2>
-                    <input type="checkbox" name="hotel" value="Гостиница" id="checkbox04" checked>
-                    <label for="checkbox04">Гостиница</label>
-                    <input type="checkbox" name="motel" value="Мотель" id="checkbox05" checked>
-                    <label for="checkbox05">Мотель</label>
-                    <input type="checkbox" name="apartments" value="Апартаменты" id="checkbox06" checked>
-                    <label for="checkbox06">Апартаменты</label>
+                  <fieldset>
+                    <legend>Тип жилья:</legend>
+                    <input type="checkbox" name="hotel" value="Гостиница" id="hotel" checked>
+                    <label for="hotel">Гостиница</label>
+                    <input type="checkbox" name="motel" value="Мотель" id="motel" checked>
+                    <label for="motel">Мотель</label>
+                    <input type="checkbox" name="apartments" value="Апартаменты" id="apartments" checked>
+                    <label for="apartments">Апартаменты</label>
+                  </fieldset>
                 </div>
                 <div>
                     <p>Стоимость в сутки (Р)</p>
                 </div>
                     <div>
-                        <label for="cost-from">От
-                            <input type="text" name="from" value="0" id="from-value"> 
+                        <label class="cost-from">От
+                            <input type="text" name="from" value="0" id="cost-from"> 
                         </label>
-                        <label for="cost-to">До
-                            <input type="text" name="to" value="3000" id="to-value">
+                        <label class="cost-to">До
+                            <input type="text" name="to" value="3000" id="cost-to">
                         </label>
                     </div>
-                    <button type="button" name="show">Показать</button>
+                    <button type="button">Показать</button>
         </section>
         <section>
             <div>
@@ -83,8 +85,6 @@
                 <div>
                   <span>Рейтинг: 8,5</span>
                 </div>
-            </article>
-            <article>
               <div>
                 <img src="#" width="135" height="90" alt="Desert отель"/>
               </div>
@@ -102,8 +102,6 @@
                 <div>
                   <span>Рейтинг: 8,9</span>
                 </div>
-            </article>
-            <article>
               <div>
                 <img src="#"  width="135" height="90" alt="Villas отель"/>
               </div>
